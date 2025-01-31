@@ -44,9 +44,28 @@ const ProductList: React.FC = () => {
             <h1 className="md:text-3xl lg:text-4xl text-2xl font-semibold">Flash Sales</h1>
           </div>
 
-          <div className="flex flex-col md:ml-14 ml-4">
+          {/* <div className="flex flex-col md:ml-14 ml-4">
             <p className="text-xs">Day`&emsp;`,`&emsp;`,`&emsp;`,Hour`&emsp;`,`&emsp;`,`&emsp;,`Min`&emsp;`,`&emsp;`,`&emsp;`,Sec</p>
             <h2 className="md:text-2xl lg:text-3xl text-xl font-semibold">03`&nbsp;`,:`&nbsp;`,23`&nbsp;`,:`&nbsp;`,19`&nbsp;`,:`&nbsp;`,56</h2>
+          </div> */}
+
+          <div className='flex flex-wrap gap-3 md:ml-14 ml-3'>
+            <div>
+              <p>Day</p>
+              <h2>03</h2>
+            </div>
+            <div>
+              <p>Hour</p>
+              <h2>: 03</h2>
+            </div>
+            <div>
+              <p>Min</p>
+              <h2>: 03</h2>
+            </div>
+            <div>
+              <p>Sec</p>
+              <h2>: 03</h2>
+            </div>
           </div>
         </div>
 

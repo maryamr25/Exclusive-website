@@ -137,7 +137,7 @@ export const slides: Islides[] =[
   export const icons : AboutI[] = [
     {id: 1,title:'10.5k', name: "Sallers active our site" ,image: '/icons/shop.png'},
     {id: 2, title:'45.5k',name: "Customer active in our site" ,image: '/icons/bag.png'},
-    {id: 3,title:'33k', name: "Mopnthly Product Sale" ,image: '/icons/sale.png'},
+    {id: 3,title:'33k', name: "Mopnthly Product Sale" ,image: '/icons/Sale.png'},
     {id: 4, title:'25k',name: "Anual gross sale in our site" ,image: '/icons/Shopping bag.png'},
    
   ]

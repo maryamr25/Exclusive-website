@@ -62,10 +62,10 @@ export default function CartPage() {
                   <Image
                     src={item.image}
                     alt={item.name}
-                    width={16}
-                    height={16}
+                    width={54}
+                    height={54}
                     
-                    className="w-16 h-16 object-cover rounded"
+                    className="w-[54px] h-[54px] object-cover rounded"
                   />
                   <div>
                     <h2 className="lg:text-1xl md:text-xl xl:text-2xl 2xl:text-3xl text-sm font-semibold">{item.name}</h2>
