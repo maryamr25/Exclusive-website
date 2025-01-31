@@ -87,7 +87,7 @@ function Footer() {
         </h2>
         <nav className="list-none mb-10">
         
-          <Image src='/Frame 720.png' alt='logo' width={30} height={20} className='mx-auto'/>
+          <Image src='/Frame 720.png' alt='logo' width={198} height={84} className='w-[198px] h-[84px] mx-auto'/>
         </nav>
       </div>
     </div>
@@ -95,7 +95,7 @@ function Footer() {
   <div >
     <div className="container mx-auto py-4 px-5 flex flex-wrap ">
       <p className=" text-md text-center  mx-auto text-gray-700">
-        © Copyright Rimel 2022. All right reserved
+        © Copyright  2025. All right reserved
         
       </p>
       

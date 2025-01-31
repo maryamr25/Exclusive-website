@@ -99,7 +99,7 @@ const handleProfile = () => {
           // onClick={login}
            className="cursor-pointer"/>
         {isProfileOpen && (
-        <div className="absolute p-2 top-14 right-12 text-sm ">
+        <div className="absolute p-2 top-14 right-12 text-sm z-20">
        
             <div className=" cursor-pointer" 
             // onClick={handleLogout}
