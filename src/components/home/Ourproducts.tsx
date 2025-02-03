@@ -1,5 +1,5 @@
 'use client'
-import { ourPro } from '@/app/utils/data'
+import { ourPro } from '@/utils/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
@@ -23,7 +23,7 @@ const Ourproducts = () => {
        <div className="mt-10 ">
             <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
               {ourPro.map((item) => (
-                <div
+                <Link href='/singleproduct'> <div
                   key={item.id}
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
@@ -76,6 +76,7 @@ const Ourproducts = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
               ))}
             </div>
           </div>

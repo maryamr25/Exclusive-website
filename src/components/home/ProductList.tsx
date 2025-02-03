@@ -1,6 +1,6 @@
 
 'use client';
-import { products } from '@/app/utils/data';
+import { products } from '@/utils/data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useRef, useState } from 'react';
@@ -87,7 +87,7 @@ const ProductList: React.FC = () => {
        <div className="mt-14  ">
             <div ref={carouselRef} className="flex overflow-hidden gap-6 mt-8">
               {products.map((item) => (
-                <div
+                <Link href='/singleproduct'><div
                   key={item.id}
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
@@ -140,6 +140,7 @@ const ProductList: React.FC = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
               ))}
             </div>
           </div>

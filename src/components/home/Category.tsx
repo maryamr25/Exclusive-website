@@ -1,5 +1,5 @@
 'use client'
-import { category } from '@/app/utils/data';
+import { category } from '@/utils/data';
 import Image from 'next/image';
 import React, { useRef, useState } from 'react'
 

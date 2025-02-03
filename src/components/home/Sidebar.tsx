@@ -1,4 +1,4 @@
-import { sideCat } from '@/app/utils/data'
+import { sideCat } from '@/utils/data'
 import React from 'react'
 
 const Sidebar = () => {

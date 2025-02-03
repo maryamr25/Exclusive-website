@@ -1,7 +1,7 @@
 'use client'
 
 
-import { slides } from "@/app/utils/data"
+import { slides } from "@/utils/data"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"

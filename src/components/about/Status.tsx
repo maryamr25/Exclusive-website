@@ -1,5 +1,5 @@
 'use client'
-import { icons } from '@/app/utils/data';
+import { icons } from '@/utils/data';
 import Image from 'next/image';
 import React, { useState } from 'react'
 

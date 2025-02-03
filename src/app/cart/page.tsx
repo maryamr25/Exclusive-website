@@ -1,4 +1,5 @@
-import CartPage from '@/app/components/card'
+
+import CartPage from '@/components/card'
 import React from 'react'
 
 function Card() {

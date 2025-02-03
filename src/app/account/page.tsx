@@ -1,10 +1,14 @@
-import CheckoutPage from '@/app/components/checkout'
+
+import AccountPage from '@/components/myacount'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-        <CheckoutPage/>
+
+        <AccountPage/>
+
+
     </div>
   )
 }

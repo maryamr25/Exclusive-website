@@ -1,4 +1,4 @@
-import MonthSale from '@/app/components/home/MonthSale'
+import MonthSale from '@/components/home/MonthSale'
 import Link from 'next/link'
 import React from 'react'
 

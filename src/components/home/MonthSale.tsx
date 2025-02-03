@@ -1,6 +1,7 @@
 'use client'
-import { bestPro } from '@/app/utils/data';
+import { bestPro } from '@/utils/data';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import React, { useState } from 'react'
 import { FaRegHeart } from 'react-icons/fa';
@@ -25,7 +26,7 @@ const MonthSale = () => {
        <div className="mt-14 ">
             <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
               {bestPro.map((item) => (
-                <div
+               <Link href='/singleproduct'> <div
                   key={item.id}
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
@@ -78,6 +79,7 @@ const MonthSale = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
               ))}
             </div>
           </div>

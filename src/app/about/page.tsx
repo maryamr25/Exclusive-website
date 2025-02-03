@@ -1,7 +1,8 @@
 
-import Reviews from '@/app/components/about/Reviews'
-import Status from '@/app/components/about/Status'
-import Icons from '@/app/components/home/Icons'
+
+import Reviews from '@/components/about/Reviews'
+import Status from '@/components/about/Status'
+import Icons from '@/components/home/Icons'
 import Image from 'next/image'
 
 
