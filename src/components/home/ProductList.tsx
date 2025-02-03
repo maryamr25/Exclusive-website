@@ -87,8 +87,9 @@ const ProductList: React.FC = () => {
        <div className="mt-14  ">
             <div ref={carouselRef} className="flex overflow-hidden gap-6 mt-8">
               {products.map((item) => (
-                <Link href='/singleproduct'><div
-                  key={item.id}
+                <Link href='/singleproduct'  key={item.id}>
+                  <div
+                 
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
                 >

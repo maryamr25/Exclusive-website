@@ -168,7 +168,7 @@ const ProductPage = () => {
         <div className=''>
            <div className="flex ">
            <p className="bg-primary w-[20px] h-[40px] rounded"></p>
-           <p className="ml-3 mx-auto my-auto ">Related Item</p>
+           <p className="ml-3 mx-auto my-auto text-primary ">Related Item</p>
          </div>
          
         </div>

@@ -26,8 +26,8 @@ const MonthSale = () => {
        <div className="mt-14 ">
             <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
               {bestPro.map((item) => (
-               <Link href='/singleproduct'> <div
-                  key={item.id}
+               <Link href='/singleproduct'  key={item.id}> <div
+                 
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
                 >
