@@ -53,18 +53,18 @@ const Category = () => {
 </div>
 
 {/* categories */}
-<div className="mt-14   ">
-<div ref={carouselRef} className="flex overflow-hidden gap-8 mt-8">
+<div className="mt-14 mx-auto  ">
+<div ref={carouselRef} className="flex overflow-hidden mx-auto gap-8 mt-8">
     {category.map((item) => (
         <div
         key={item.id}
         onClick={() => handleProductClick(item.id)}
-        className={`w-[170px] h-[145px]  px-4 border border-gray-600 rounded-lg cursor-pointer transition-colors 
+        className={` max-w-sm  px-4 border border-gray-600 rounded-lg cursor-pointer transition-colors 
         ${
           selectedProductId === item.id ? 'bg-primary border-none text-white ' : 'bg-white text-black'
         }`}
       >
-          <div className='flex flex-col justify-center items-center mx-auto my-8'>
+          <div className='flex flex-col justify-center items-center w-[170px] h-[145px]  lg:w-[200px] lg:h-[170px] mx-auto my-8'>
        <Image
                   src={item.image}
                   alt={item.name}

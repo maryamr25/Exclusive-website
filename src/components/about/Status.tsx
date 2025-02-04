@@ -13,7 +13,7 @@ const Status = () => {
     <div className="mt-24 mx-auto">
 <div 
 // ref={carouselRef}
- className="flex flex-wrap justify-center items-center gap-4 mx-auto">
+ className="flex flex-wrap justify-around items-center gap-2 mx-auto">
     {icons.map((item) => (
         <div
         key={item.id}

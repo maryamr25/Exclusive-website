@@ -14,24 +14,30 @@ export default function Home() {
   return (
     <>
 
-    <div className='flex flex-col md:flex-row  mx-auto justify-between gap-4 mt-10 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62 '>
+    <div className='flex flex-col md:flex-row mx-auto justify-between gap-2 md:gap-6 lg:gap-10 xl:gap-14 2xl:gap:16 mt-10'>
     <Sidebar/>
-    <Slider/>
+    <Slider />
     </div>
 
 {/*Our Product List component */}
-<div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+<div
+//  className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+ >
     <ProductList/>
     </div>
     
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div 
+    // className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+    >
     <Category/>
     </div>
 
      {/*Our this month sale component */}
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div
+    //  className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+     >
       {/*this month best selling product Header */}
-       <div className="flex ">
+       <div className="flex mt-20 ">
          <p className="bg-primary w-[20px] h-[40px] rounded"></p>
          <p className="ml-3 text-primary mx-auto my-auto font-semibold">This Month</p>
        </div>
@@ -49,15 +55,19 @@ export default function Home() {
     </div>
 
 
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div 
+    // className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+    >
     <Banner/>
     </div>
 
 
  {/*Our products component */}
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div 
+    // className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+    >
        {/*Our products Header */}
-       <div className="flex ">
+       <div className="flex mt-20">
          <p className="bg-primary w-[20px] h-[40px] rounded"></p>
          <p className="ml-3 text-primary mx-auto my-auto font-semibold">our Products</p>
        </div>
@@ -73,10 +83,14 @@ export default function Home() {
     </div>
 
      {/*Our Feature component */}
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div 
+    // className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+    >
     <Features/>
     </div>
-    <div className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
+    <div
+    //  className="mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62"
+     >
     <Icons/>
     </div>
    

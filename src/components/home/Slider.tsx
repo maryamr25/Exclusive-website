@@ -19,7 +19,7 @@ const Slider = () => {
 
   return (
 
-<div className="relative bg-black md:w-[892px] md:h-[334px] w-full ">
+<div className="relative justify-end bg-black 2xl:w-[1040px] xl:w-[1020px] lg:w-[1000px] md:w-[892px] md:h-[334px] w-full ">
 <div className="relative justify-end items-end flex">
   
   <Image src={slides[current].img} alt={slides[current].title} width={469} height={300} className="md:w-[469px] h-[300px] w-full  md:h-[300px]  my-3   rounded-lg" />

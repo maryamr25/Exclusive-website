@@ -11,15 +11,15 @@ import React from "react";
 export const Banner = () => {
   return (
     <div className="mt-20">
-      <div className="relative mx-auto max-w-[1170px] w-full h-auto bg-black">
-        <div className="relative flex justify-center lg:justify-end items-center px-4 lg:px-8 py-10">
+      <div className="relative mx-auto w-full h-auto bg-black">
+        <div className="relative flex justify-end items-center py-10">
           {/* Image Section */}
           <Image
             src="/dug.png"
             alt="dug"
             width={600}
             height={300}
-            className="bg-contain w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[600px] h-auto"
+            className="bg-contain w-full max-w-[300px] sm:max-w-[400px]  md:max-w-[500px] lg:max-w-[600px] h-auto"
           />
 
           {/* Text and Buttons */}

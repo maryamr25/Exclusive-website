@@ -3,7 +3,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className="  lg:w-[230px] md:w-[217px] sm:w-[250px] w-full h-auto p-4 bg-gray-100">
+    <div className="justify-start 2xl:w-[280px] xl:w-[250px] lg:w-[230px] md:w-[217px]  sm:w-[250px] w-full h-auto p-4 bg-gray-100">
         <ul className="space-y-2" >
           {sideCat.map((cat) => (
             <li

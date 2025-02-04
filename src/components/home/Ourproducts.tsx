@@ -20,8 +20,8 @@ const Ourproducts = () => {
 
 {/* Best Sale product List */}
 
-       <div className="mt-10 ">
-            <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
+       <div className="mt-10 mx-auto ">
+            <div className="flex flex-wrap w-full  justify-around items-center  gap-6 mt-8">
               {ourPro.map((item) => (
                 <Link href='/singleproduct'  key={item.id}> <div
                  

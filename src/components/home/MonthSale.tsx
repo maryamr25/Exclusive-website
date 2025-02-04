@@ -24,16 +24,17 @@ const MonthSale = () => {
   {/* Best Sale product List */}
 
        <div className="mt-14 ">
-            <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
+            <div className="flex flex-wrap mx-auto w-full justify-around  gap-6 mt-8">
               {bestPro.map((item) => (
-               <Link href='/singleproduct'  key={item.id}> <div
+               <Link href='/singleproduct'  key={item.id}> 
+               <div
                  
                   className="max-w-sm shadow-lg border bg-white relative"
                   onClick={() => handleProductClick(item.id)}
                 >
                   {/* Image Section */}
                   <div className="relative w-full h-full bg-sec">
-                    <div className="w-[270px] h-[250px]">
+                    <div className="w-[270px] h-[250px] ">
                       <Image
                         src={item.image}
                         alt={item.name}

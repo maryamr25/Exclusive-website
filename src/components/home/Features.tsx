@@ -24,13 +24,13 @@ const Features = () => {
 
  
   {/* section */}
-  <div className="max-w-screen-2xl h-1/2 mx-auto mt-6 relative bg-white">
+  <div className="w-full h-1/2 mx-auto mt-6 relative bg-white">
     <div className="flex flex-col md:flex-row gap-8">
       <div className="flex flex-1 flex-col">
-        <div className="flex flex-1 flex-col relative bg-black h-full w-full">
+        <div className="flex flex-1 flex-col relative mx-auto bg-black h-full w-full">
           {/* img_01 */}
           <Image
-            className="object-cover h-full w-full md:w-[511px] md:h-[511px]"
+            className="object-cover p-2 justify-center items-center mx-auto h-full w-full md:w-[511px] md:h-[511px]"
             src="/ps5.png"
             alt=""
             width={511}
@@ -48,11 +48,11 @@ const Features = () => {
         </div>
       </div>
       <div className="flex flex-1 ">
-        <div className="grid grid-cols-2  gap-2">
-          <div className='relative  w-full h-full'>
+        <div className="grid grid-cols-2  gap-2 h-full w-full">
+          <div className='relative bg-[#0D0D0D]  mx-auto w-full h-full'>
             {/* img_02 */}
             <Image
-              className="object-cover md:w-[250px] md:h-[250px] w-full h-full"
+              className="object-cover p-2 justify-center items-center mx-auto md:w-[250px] md:h-[250px] w-full h-full"
               src="/wo.png"
               alt=""
               width={270}
@@ -68,10 +68,10 @@ const Features = () => {
                </button>
              </div>
           </div>
-          <div className='relative w-full h-full'>
+          <div className='relative w-full h-full bg-[#0D0D0D] '>
             {/* img_03 */}
             <Image
-              className="object-cover md:w-[250px] md:h-[250px] w-full h-full"
+              className="object-cover p-2 justify-center items-center mx-auto md:w-[250px] md:h-[250px] w-full h-full"
               src="/wo.png"
               alt=""
               width={270}
@@ -90,7 +90,7 @@ const Features = () => {
           <div className='relative w-full h-full bg-black'>
             {/* img_04 */}
             <Image
-              className="object-cover md:w-[250px] md:h-[250px] w-full  h-full"
+              className="object-cover justify-center items-center mx-auto md:w-[250px] md:h-[250px] w-full  h-full"
               src="/3speaker.png"
               alt=""
               width={270}
@@ -109,7 +109,7 @@ const Features = () => {
           <div className='relative w-full h-full bg-black'>
             {/* img_05 */}
             <Image
-              className="object-cover md:w-[250px] md:h-[250px] w-full  h-full"
+              className="object-cover p-2 justify-center items-center mx-auto md:w-[250px] md:h-[250px] w-full  h-full"
               src="/per.png"
               alt=""
               width={270}

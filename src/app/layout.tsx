@@ -34,7 +34,7 @@ export default function RootLayout({
         <UpperHeader/>
        
         <Navbar/>
-        <main className="con">
+        <main className="con mt-20 px-4 md:px-6 lg:px-14 xl:px-30 2xl:px-62">
         {children}
         </main>
         <Footer/>
