@@ -13,11 +13,23 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-
+{/* 
     <div className='flex flex-col md:flex-row mx-auto justify-between gap-2 md:gap-6 lg:gap-10 xl:gap-14 2xl:gap:16 mt-10'>
     <Sidebar/>
     <Slider />
-    </div>
+    </div> */}
+
+<div className="flex flex-col md:flex-row mx-auto justify-between gap-6 lg:gap-10 xl:gap-14 2xl:gap-16 mt-10">
+  {/* Sidebar */}
+  <div className="w-full md:w-1/4 lg:w-1/5">
+    <Sidebar />
+  </div>
+
+  {/* Slider */}
+  <div className="w-full md:w-3/4 lg:w-4/5">
+    <Slider />
+  </div>
+</div>
 
 {/*Our Product List component */}
 <div
